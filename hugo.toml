@@ -1,0 +1,87 @@
+baseurl = "http://www.bapho.fun/"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en-us"
+
+
+[pagination]
+pagerSize = 20
+
+
+[markup.highlight]
+style = "github-dark"
+
+
+[params]
+  author = "Andrew Flanagan"
+  info = "I'm an editor, writer, journalist and critic."
+  description = "Andrew Flanagan's portfolio site"
+  keywords = "writing, editing, critic, blog, resume, portfolio, npr music, billboard, developer, personal"
+#  avatarurl = "images/avatar.jpg"
+  # gravatar = "andrew@bapho.fun"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+ 
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 1
+  url = "https://www.instagram.com/flanaganplur"
+[[params.social]]
+  name = "Bluesky"
+  icon = "fa-brands fa-bluesky fa-2x"
+  weight = 2
+  url = "https://bsky.app/profile/flanaganplur.bsky.social"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 3
+  url = "https://github.com/flanaganplur/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 4
+  url = "https://twitter.com/flanaganplur/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 5
+  url = "https://www.linkedin.com/in/andrew-f-61040524/"
+
+
+# Menu links
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url  = "/"
+
+[[menu.main]]
+  name = "CV"
+  weight = 3
+  url  = "cv/"
+
+[[menu.main]]
+  name = "Portfolio"
+  weight = 2
+  url = "portfolio/"
