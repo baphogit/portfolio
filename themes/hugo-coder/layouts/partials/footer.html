@@ -1,0 +1,5 @@
+{{ if eq .Params.footer "sub" }}
+  {{ partial "footer-sub.html" . }}
+{{ else }}
+  {{ partial "footer-home.html" . }}
+{{ end }}
