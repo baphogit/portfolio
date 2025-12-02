@@ -1,1 +1,26 @@
+.content ul {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  padding-left: 2rem !important;
+}
 
+.content ul li {
+  display: list-item !important;
+  list-style-type: disc !important;
+}
+
+nav ul,
+.navigation ul,
+.menu ul,
+.nav-bar ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+nav ul li,
+.navigation ul li,
+.menu ul li,
+.nav-bar ul li {
+  list-style: none !important;
+  display: block !important;
+}
