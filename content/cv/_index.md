@@ -10,6 +10,16 @@ Versatile editor, journalist and manager with extensive experience crafting high
 
 Please [contact me](mailto:andrew@bapho.fun) for references.
 
+## Freelance writer
+
+_Variety_, _Times Union_
+
+Key responsibilities:
+
+- Identify developing and/or enterprise stories for the publication's intended audience, taking into account voice and expected knowledge of the topic.
+- Pitch stories to lead editors.
+- Report out and write stories as approved in a timely manner.
+- Respond to edits as required.
 
 ## Markets Correspondent, DL News
 

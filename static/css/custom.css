@@ -1,0 +1,22 @@
+/* Force all Markdown bullets to appear correctly in hugo-coder */
+
+.markdown-body ul {
+    list-style-type: disc !important;
+    padding-left: 1.5em !important;
+    margin: 0.5em 0 !important;
+}
+
+.markdown-body ul ul {
+    list-style-type: circle !important;
+    padding-left: 1.5em !important;
+}
+
+.markdown-body li {
+    display: list-item !important;
+    word-wrap: break-word !important;
+}
+
+/* Optional: ensure italics, bold, and links render inline */
+.markdown-body em, .markdown-body strong, .markdown-body a {
+    display: inline !important;
+}

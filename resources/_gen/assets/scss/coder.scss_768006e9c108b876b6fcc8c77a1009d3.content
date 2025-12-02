@@ -10717,7 +10717,7 @@ figure {
       width: 17rem; } }
 .list ul {
   margin: 3.2rem 0 3.2rem 0;
-  list-style: none;
+  list-style: disc;
   padding: 0; }
   .list ul li {
     font-size: 1.8rem; }
@@ -10764,7 +10764,7 @@ figure {
         .centered .about h2 {
           font-size: 2rem; } }
     .centered .about ul {
-      list-style: none;
+      list-style: disc;
       margin: 3rem 0 1rem 0;
       padding: 0;
       cursor: pointer; }
